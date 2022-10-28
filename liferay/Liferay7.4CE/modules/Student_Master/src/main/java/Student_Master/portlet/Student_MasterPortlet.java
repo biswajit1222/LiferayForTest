@@ -89,7 +89,7 @@ public class Student_MasterPortlet extends MVCPortlet {
 		 //String students2=students1.get(0).getFirstName().toString().toLowerCase();
 		  System.out.println("list1 list1 list1 v v v list1 list1 "+students11);
 		  for( Object[] stu :students11) {
-			  System.out.println("inside for"); 
+			  //System.out.println("inside for"); 
 			System.out.println(stu[0]+"................."+stu[1]);
 			 
 		  }
