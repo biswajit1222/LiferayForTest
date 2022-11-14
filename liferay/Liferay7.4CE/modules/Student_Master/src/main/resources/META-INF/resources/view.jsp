@@ -19,8 +19,29 @@
   text-align: center;
 } */
 </style>
+
+<%-- <%-- <portlet:resourceURL id="addResource" var="addresourceval">
+ <portlet:param name="Country" value=""${country}"/>
+</portlet:resourceURL> --%> 
+<aui:select name="Country"id="country"onClick="get()">
+    <aui:option value="Select">Select</aui:option>
+    <aui:option value="INDIA">INDIA</aui:option>                       
+    <aui:option value="USA">USA</aui:option>                            
+    <aui:option value="LONDON">LONDON</aui:option>                            
+    <aui:option value="RUSSIA">RUSSIA</aui:option>    
+</aui:select>
+
+
+
+
+
+
+
+
+
 <portlet:renderURL var="addStudentUrl">
 <portlet:param name="mvcRenderCommandName" value="addStudent"/>
+
 </portlet:renderURL>
 <aui:button id="button" type ="submit" value ="add Student"
 onClick="<%= addStudentUrl.toString()%>">
@@ -114,6 +135,8 @@ function myFunction1(){
 			 alert("Button clicked");
 			console.log("Button clicked");
 		 }
+function get(){
 
+}
 </script>
 
