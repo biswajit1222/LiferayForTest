@@ -1,0 +1,10 @@
+Bundle-Name: StudentMasterService-api
+Bundle-SymbolicName: StudentMasterService.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	StudentMasterService.exception,\
+	StudentMasterService.model,\
+	StudentMasterService.service,\
+	StudentMasterService.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../StudentMasterService-service/service.xml

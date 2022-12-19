@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="Liferay Digital Experience Platform 7.4.13 Update 35" location\="C\:/Devlopment/Server/liferay-dxp-7.4.13.u35" name\="Liferay Digital Experience Platform 7.4.13 Update 35" runtime-type-id\="com.liferay.ide.server.portal.runtime" timestamp\="0" vm-install-id\="1663077113584" vm-install-type-id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType"/>\r\n</runtimes>\r\n

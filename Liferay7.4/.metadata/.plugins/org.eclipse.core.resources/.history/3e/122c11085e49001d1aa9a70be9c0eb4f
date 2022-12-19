@@ -1,0 +1,4 @@
+Bundle-Name: StudentRest-test
+Bundle-SymbolicName: StudentRest.test
+Bundle-Version: 1.0.0
+-includeresource: StudentRest.client.jar=../StudentRest-client/build/libs/StudentRest.client-1.0.0.jar;lib:=true

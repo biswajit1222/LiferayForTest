@@ -1,0 +1,12 @@
+#
+#Tue Oct 11 17:57:45 IST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=studentRest-api;studentRest-client;studentRest-impl;studentRest-test
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;studentRest-api/build;studentRest-client/build;studentRest-impl/build;studentRest-test/build

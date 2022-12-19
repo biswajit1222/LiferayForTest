@@ -23,6 +23,7 @@ public class AddStudent implements MVCRenderCommand{
 	public String render(RenderRequest renderRequest, RenderResponse renderResponse) throws PortletException {
 		System.out.println("inside app11111111::::::::::::::");
 		return "/AddStudent.jsp";
+		//return "/EditStudent.jsp";
 	}
 
 }

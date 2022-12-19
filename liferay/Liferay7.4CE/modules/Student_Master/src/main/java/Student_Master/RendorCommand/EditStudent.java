@@ -42,7 +42,8 @@ public class EditStudent implements MVCRenderCommand{
 		renderRequest.setAttribute("lastName", student.getLastName());
 		renderRequest.setAttribute("contactNo", student.getContactNo());
 		renderRequest.setAttribute("workLocation", student.getWorkLocation());
-		return "/EditStudent.jsp";
-	}
+		//return "/EditStudent.jsp";
+		return "/AddStudent.jsp";
+			}
 
 }
