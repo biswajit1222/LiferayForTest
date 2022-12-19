@@ -1,0 +1,6 @@
+Bundle-Name: studentRest-api
+Bundle-SymbolicName: studentRest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	studentRest.dto.v1_0,\
+	studentRest.resource.v1_0

@@ -1,4 +1,4 @@
-<%@ include file="/init.jsp"%>
+<%-- <%@ include file="/init.jsp"%>
 <h2>Edit Employee Page</h2>
 <liferay-portlet:actionURL name="EditStudent" var="addStudentURL">
 	<liferay-portlet:param name="mvcActionCommand" value="EditStudent" />
@@ -16,4 +16,4 @@ h2 {
 <aui:input name="phoneNumber" type="text"value="${contactNo}"></aui:input>
 <aui:input name="city" type="text"value="${workLocation}"></aui:input>
 <aui:button type="submit" value="Save" name="Save"></aui:button>
-</aui:form>
+</aui:form> --%>

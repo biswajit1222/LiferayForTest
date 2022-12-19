@@ -1,0 +1,4 @@
+Bundle-Name: Student_Master
+Bundle-SymbolicName: Student_Master
+Bundle-Version: 1.0.0
+Export-Package: Student_Master.constants

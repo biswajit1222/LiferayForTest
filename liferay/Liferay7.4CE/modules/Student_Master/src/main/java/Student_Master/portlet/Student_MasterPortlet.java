@@ -10,6 +10,7 @@ import com.liferay.dynamic.data.lists.service.DDLRecordLocalServiceUtil;
 import com.liferay.expando.kernel.model.ExpandoBridge;
 import com.liferay.expando.kernel.util.ExpandoBridgeFactoryUtil;
 import com.liferay.headless.commerce.admin.account.dto.v1_0.User;
+import com.liferay.petra.string.StringPool;
 import com.liferay.portal.kernel.dao.orm.DynamicQuery;
 import com.liferay.portal.kernel.dao.orm.DynamicQueryFactoryUtil;
 import com.liferay.portal.kernel.dao.orm.ProjectionFactoryUtil;
@@ -34,6 +35,7 @@ import StudentMasterService.model.impl.StudentImpl;
 import StudentMasterService.service.StudentLocalServiceUtil;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Base64;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
@@ -123,6 +125,11 @@ public class Student_MasterPortlet<Serializable> extends MVCPortlet {
 		  System.out.println("list1 list1 list1 v v v list1 list1 "+students11);
 		  //-----------------------------------------------------------------------------
 		  long companyId =201;
+		  String company1=null;
+		    if(company1!=null) {
+		    	company1=new String(Base64.getDecoder().decode(company1));
+		        }
+		    System.out.println("company1 company1 company1 company1 company1 "+company1);
 		  //CompanyThreadLocal.getCompanyId();
 		  System.out.println(companyId);
 		  ExpandoBridge expandoBridge = ExpandoBridgeFactoryUtil.getExpandoBridge(companyId, Student.class.getName());
@@ -148,6 +155,9 @@ public class Student_MasterPortlet<Serializable> extends MVCPortlet {
 		List<Student> students =StudentLocalServiceUtil.getStudents(-1, -1);
 		//StudentLocalServiceUtil.FoundByWorkLoction(WorkLocation)
 		renderRequest.setAttribute("students",students );
+		renderRequest.setAttribute("bulu","bulu1234" );
+		String param3=  ParamUtil.get(renderRequest, "param3", StringPool.BLANK);
+		System.out.println("param3333333333333333333333333"+param3);
 		super.render(renderRequest, renderResponse);
 		}catch(Exception e){
 			System.out.println("erroerr11"+e);

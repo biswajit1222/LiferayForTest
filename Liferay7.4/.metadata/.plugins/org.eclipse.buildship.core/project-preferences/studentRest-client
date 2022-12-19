@@ -1,0 +1,12 @@
+#
+#Tue Oct 11 17:57:45 IST 2022
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="C\:/Users/biswajit.nayak01/.gradle/caches/modules-2/files-2.1/com.liferay/javax.xml.bind/2.3.0.LIFERAY-PATCHED-2/ca6dad611d59298000af1012ba44972b31d84079/javax.xml.bind-2.3.0.LIFERAY-PATCHED-2.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\=""/>\r\n\t</attributes>\r\n</classpathentry>\r\n<classpathentry kind\="lib" path\="C\:/Users/biswajit.nayak01/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar" sourcepath\="C\:/Users/biswajit.nayak01/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\=""/>\r\n\t</attributes>\r\n</classpathentry>\r\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=
+managedNatures=org.eclipse.jdt.core.javanature;com.liferay.ide.core.liferayNature
+hasAutoBuildTasks=false
+gradleVersion=6.6.1
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Service.service.FooLocalServiceUtil"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.liferay.counter.kernel.service.CounterLocalServiceUtil"/>
+<fullyQualifiedTypeName name="StudentService.model.Student"/>
+<fullyQualifiedTypeName name="StudentService.service.StudentLocalServiceUtil"/>
+<fullyQualifiedTypeName name="StudentMasterService.model.Student"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="StudentMasterService.service.StudentLocalServiceUtil"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.exception.PortalException"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+</qualifiedTypeNameHistroy>

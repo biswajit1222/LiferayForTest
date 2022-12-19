@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="StudentMasterService.model.Student">
+		<field name="uuid" type="String" />
+		<field name="studentId" type="long" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="contactNo" type="long" />
+		<field name="workLocation" type="String" />
+	</model>
+</model-hints>
